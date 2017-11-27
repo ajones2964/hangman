@@ -1,0 +1,153 @@
+Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: C:\Users\Ashton\Documents\python\hangman.py ============
+~~~~~~~GCSD~~~~~~~~
+Destroyer of Dreams
+
+------
+You have 7 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.r
+
+------
+GCSD             coolmath
+You have 6 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.a
+
+------
+  GCSD           coolmath
+You have 5 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.m
+
+------
+    GCSD         coolmath
+You have 4 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.c
+
+------
+      GCSD       coolmath
+You have 3 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.p
+
+P-----
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.y
+
+Py----
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.t
+
+Pyt---
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.h
+
+Pyth--
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.o
+
+Pytho-
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.n
+
+Python
+        GCSD     coolmath
+
+You got it in 2 guesses.
+
+Would you like to play again? (y/n) y
+
+------
+You have 7 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.r
+
+R-----
+GCSD             coolmath
+You have 6 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+  GCSD           coolmath
+You have 5 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+    GCSD         coolmath
+You have 4 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+      GCSD       coolmath
+You have 3 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+        GCSD     coolmath
+You have 2 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+          GCSD   coolmath
+You have 1 guesses left until GCSD blocks www.coolmath-games.com
+
+
+Enter a Letter to guess the word.f
+
+R-----
+           GCSD
+       URL Blocked
+URL:www.coolmath-game.com
+
+     category: games
+
+
+You lost, R.I.P coolmath. The word was Roblox
+
+Would you like to play again? (y/n) n
+
+           GCSD
+       URL Blocked
+URL:www.coolmath-game.com
+
+     category: games
+
+coolmath is blocked regardless if you win or not.
+
+Ashton 11/14/17
+>>> 
