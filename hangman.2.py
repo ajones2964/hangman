@@ -27,6 +27,8 @@ def get_puzzle():
     file_names = os.listdir(path)
     
     for i, f in enumerate(file_names):
+        open(f, 'r')
+        category_name = lines[0]
         print(str(i + 1) + ") " + f)
 
     choice = input("Pick One Fam  ")
