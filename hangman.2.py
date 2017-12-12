@@ -6,37 +6,40 @@ import os
 path = "data"
 
 def start_screen():
-    print("""~~~~~~~GCSD~~~~~~~~
-Destroyer of Dreams
-""")
+    print("")
+    file = "art/start.txt"
+    with open(file, "r") as f:
+        lines = f.read()
+    print(lines[2:])
+    print("")
 
 def end_screen():
-    print("""           GCSD
-       URL Blocked
-URL:www.coolmath-game.com
-
-     category: games
-
-coolmath is blocked regardless if you win or not.
-
-Ashton 11/14/17""")
+    print("")
+    file = "art/end.txt"
+    with open(file, "r") as f:
+        lines = f.read()
+    print(lines[9:])
+    print("")
 
 def get_puzzle():
+    path = "data"
+    puzz_file = ""
     file_names = os.listdir(path)
-
+    
     for i, f in enumerate(file_names):
-        print(str(i) + ") " + f)
+        print(str(i + 1) + ") " + f)
 
-    choice = input('pick one')
-    choice = int(choice)
+    choice = input("Pick One Fam  ")
+    choice = int(choice) - 1
 
     file = path + "/" + file_names[choice]
-    print(file)
 
-    with open(file, 'r') as f:
+    with open(file, "r") as f:
         lines = f.read().splitlines()
-        puzzlechoice = random.randint(0, 11)
-        return puzzlechoice
+        
+    puzzle = random.choice(lines[1:])
+        
+    return random.choice( lines[1:] )
 
 def get_solved(puzzle, guesses):
     solved = ""
@@ -66,18 +69,26 @@ def get_guess():
             
 def display_board(solved, guesses, strikes):
     print(solved)
+    print("")
+    f = open('art/strikes.txt', 'r')
     if strikes == 1:
-        print("GCSD             coolmath")
+        one = f.readline()
+        print(one)
     elif strikes == 2:
-        print("  GCSD           coolmath")
+        two = f.readline()
+        print(two)
     elif strikes == 3:
-        print("    GCSD         coolmath")
+        three = f.readline()
+        print(three)
     elif strikes == 4:
-        print("      GCSD       coolmath")
+        four = f.readline()
+        print(four)
     elif strikes == 5:
-        print("        GCSD     coolmath")
+        five = f.readline()
+        print(five)
     elif strikes == 6:
-        print("          GCSD   coolmath")
+        six = f.readline()
+        print(six)
 
 
 def show_result(strikes, limit, puzzle):
